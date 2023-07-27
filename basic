@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Welcome to HTML</title>
+</head>
+<body>
+    <h1>Hi,I am Jayaram</h1>
+    <h2>lets start Html</h2>
+    <h3>Its nice</h3>
+
+    <!--paragraph tags lorem20-->
+    <p>Lorem ipsum dolor sit amet consectetur adipsicing elit.Suscipt unde mastrum</p>
+    <!-- lists ordered and unordered-->
+    <ol>
+        <li>Hi</li>
+        <li>jayaram</li>
+        <li>star</li>
+    </ol>
+
+    <ul>
+        <li>unordered lists</li>
+        <li>unordered lists</li>
+    </ul>
+
+    <!-- input tags-->
+    <!--not have closing tag-->
+    <input type="text" placeholder="write your name here">
+    <input type="number"placeholder="write your age">
+    <input type="email"placeholder="write your email">
+    <input type="password"placeholder="password">
+    <input type="time"placeholder="enter time">
+    <input type="image"placeholder="upload image">
+    <input type="tel"placeholder="enter tel">
+    <input type="search"placeholder="search something">
+    <input type="month"placeholder="enter month">
+    <input type="datetime"placeholder="enter date">
+
+    <!-- radio button-->
+    <!--label tags-->
+    <label for="">choose any one option</label>
+    <label for="name">
+    <input type="radio" name="subject"id="name">
+    science
+    </label>
+    <label for="name2">
+        <input type="radio" name="subject" id="name2">
+        arts
+    </label>
+    <!--create an option whaere user can select nationality 3 options india,usa,uk-->
+    </label for="">choose nationality</label>
+    </label for ="india">
+    <input type="radio" name="nationality" id="india">
+    india
+    </label>
+    </label for ="usa">
+    <input type="radio" name="nationality" id="usa">
+    usa
+    </label>
+    </label for ="uk">
+    <input type="radio" name="nationality" id="uk">
+    uk
+    </label>
+    <h1>Select</h1>
+    <label>Select your country</label>
+    <select name="country">
+    <option value="USA">USA</option>
+    <option value="India">India</option>
+    <option value="UK">UK</option>
+    <option value="Other">Other</option>
+    </select>
+
+
+
+
+
+    
+</body>
+</html>
